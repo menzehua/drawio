@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T06:54:17.846Z" agent="5.0 (X11)" etag="cw6i7IC6ewjtDijqRJmH" version="16.4.5" type="github"><diagram id="7Ata5RO5lJRYupNyB6cd" name="Page-1">zZVNj5swEIZ/zRxbAQ4EjiFhd1up0kpR1fZowTRYBYyMSUh/fe3FfBj2o7uHbU8Zvx6PPc/MBCD7srsVtM6/8AwL8JysA3IAz3OJ76sfrVx7ZRuRXjgJlhmnSTiy32hEx6gty7CxHCXnhWS1Laa8qjCVlkaF4Bfb7Scv7FtresKVcExpsVa/sUzmvRp620m/Q3bKh5vdIOp3Sjo4m0yanGb8MpNIAmQvOJe9VXZ7LDS8gUt/7uaJ3fFhAiv5Nwf2d21z/vSrSe6Tz1836e7MnPqDiXKmRWsShiSCKIRYGQGEO4gCSHyIbyD0IQlhp0RXbyk93EKygTiGONDKjkDoaCP2IYxN0vI6kBS8rTLUj3GAxJecSTzWNNW7F9U7SstlWaiVq8x1csNLUUjsZpJJ9hZ5iVJclYvZ3RjupvFCs7xMVXSHJstnFfSNRk3jnMbAE1tlGLyvQO2tUS8RYZXtdM+qVVrQpmGpTcVGiB2T37X90TerH8ZP24du5na4msWTXBveihRf7hTMrHlZ05/x9Z/BK7Cgkp3tKXuMubnhnjP14rG4JLKruyGLsvX5mFPzqVgEinwrjrtdxJFUnFCu4qgy0evMrdYOzapHRi5vbxuyahtWtioSdjVvWoEPI6jm0nsYU2Vs//9ZHCn/s2EMXh7G92bkOQtIzhqS/xik8a/tFZTUcvry9K06fb9J8gc=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-24T07:21:27.825Z" agent="5.0 (X11)" etag="DJipYFJGno1q_vxYcN3n" version="16.4.5" type="github">
+  <diagram id="7Ata5RO5lJRYupNyB6cd" name="Page-1">
+    <mxGraphModel dx="774" dy="453" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CHusvIksEPEJU4cAvi0p-1" value="防抖必要文件存在检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="65" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CHusvIksEPEJU4cAvi0p-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CHusvIksEPEJU4cAvi0p-1" edge="1" target="CHusvIksEPEJU4cAvi0p-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="95" y="170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHusvIksEPEJU4cAvi0p-3" value="&lt;div&gt;imu/exposure丢帧检测,imu值异常检测&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="65" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-1" value="&lt;div&gt;防抖渲染&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="65" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CHusvIksEPEJU4cAvi0p-3" target="Qn_3-dmqvA78tIA6TZ19-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="220" as="sourcePoint" />
+            <mxPoint x="94.66" y="254.9999999999999" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-6" value="&lt;div&gt;设置imu噪声临界频率&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-7" value="信号能量，噪声能量计算，信噪比计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qn_3-dmqvA78tIA6TZ19-6" target="Qn_3-dmqvA78tIA6TZ19-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="260" as="sourcePoint" />
+            <mxPoint x="410" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-11" value="&lt;div align=&quot;left&quot;&gt;1.offline/online,autofov,重力校准等模式切换&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.hfov/vfov参数/宽高比等多个参数独立调节和组合调节&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="65" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-12" value="" style="endArrow=classic;html=1;rounded=0;shadow=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="95" as="sourcePoint" />
+            <mxPoint x="440" y="95" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Qn_3-dmqvA78tIA6TZ19-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="90" as="sourcePoint" />
+            <mxPoint x="200" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.012;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Qn_3-dmqvA78tIA6TZ19-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="179" as="sourcePoint" />
+            <mxPoint x="280" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-16" value="camera-imu延迟估计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-17" value="&lt;div&gt;出界检测及视频导出&lt;/div&gt;&lt;div&gt;(由于基于cpu的demo，效率较低，没有继续维护)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Qn_3-dmqvA78tIA6TZ19-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="250" as="sourcePoint" />
+            <mxPoint x="380" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
