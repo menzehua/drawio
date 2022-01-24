@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T09:25:16.447Z" agent="5.0 (X11)" etag="9hQEYmI114Ub8VCu6-Fv" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T09:39:39.677Z" agent="5.0 (X11)" etag="gATCWUhWazDTaKEQk4RX" version="16.4.5" type="github">
   <diagram id="7Ata5RO5lJRYupNyB6cd" name="Page-1">
     <mxGraphModel dx="934" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,6 +280,48 @@
         <mxCell id="Qn_3-dmqvA78tIA6TZ19-133" value="存在短时间内fov增大后又减小的情况" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-131">
           <mxGeometry x="192" width="192" height="100" as="geometry">
             <mxRectangle width="192" height="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-134" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="27" y="1652" width="419" height="462" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-135" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-134">
+          <mxGeometry width="419" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-136" value="算法改进点梗概" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-135">
+          <mxGeometry width="210" height="152" as="geometry">
+            <mxRectangle width="210" height="152" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-137" value="&lt;div align=&quot;left&quot;&gt;用两个不同时间长度滑窗分别控制fov的增大和减小。&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;　　滑窗1：仍然统计t——t+2.5s时长滑窗范围的内的fovlimit分布直方图和t时刻的fov，作为判断fov增加的依据;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;滑窗2：增加t——t+fov_range/fov_max_velocity内的特殊统计来控制fov的减小。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-135">
+          <mxGeometry x="210" width="209" height="152" as="geometry">
+            <mxRectangle width="209" height="152" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-138" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-134">
+          <mxGeometry y="152" width="419" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-139" value="优势１" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-138">
+          <mxGeometry width="210" height="155" as="geometry">
+            <mxRectangle width="210" height="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-140" value="可以设置很小的fov变化速度，可以通过调节滑窗1宽度来控制fov增加的敏感度" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-138">
+          <mxGeometry x="210" width="209" height="155" as="geometry">
+            <mxRectangle width="209" height="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-147" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-134">
+          <mxGeometry y="307" width="419" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-148" value="优势2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-147">
+          <mxGeometry width="210" height="155" as="geometry">
+            <mxRectangle width="210" height="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-149" value="在fov可以增大情况下，预测未来特定时长范围内是否会减小，来避免很短时间内fov增加后又减小的情况" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-147">
+          <mxGeometry x="210" width="209" height="155" as="geometry">
+            <mxRectangle width="209" height="155" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
