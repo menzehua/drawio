@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T09:05:24.356Z" agent="5.0 (X11)" etag="TKVStIdJMoF9mm7zW3MY" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T09:25:16.447Z" agent="5.0 (X11)" etag="9hQEYmI114Ub8VCu6-Fv" version="16.4.5" type="github">
   <diagram id="7Ata5RO5lJRYupNyB6cd" name="Page-1">
     <mxGraphModel dx="934" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,45 +228,58 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qn_3-dmqvA78tIA6TZ19-106" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="21" y="851" width="380" height="138" as="geometry" />
+          <mxGeometry x="27" y="1189" width="384" height="402" as="geometry" />
         </mxCell>
         <mxCell id="Qn_3-dmqvA78tIA6TZ19-117" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-106">
-          <mxGeometry width="380" height="46" as="geometry" />
+          <mxGeometry width="384" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Qn_3-dmqvA78tIA6TZ19-118" value="原有算法策略梗概" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-117">
-          <mxGeometry width="190" height="46" as="geometry">
-            <mxRectangle width="190" height="46" as="alternateBounds" />
+          <mxGeometry width="192" height="100" as="geometry">
+            <mxRectangle width="192" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qn_3-dmqvA78tIA6TZ19-119" value="通过统计t——t+2.5s时长滑窗范围的内的fovlimit分布直方图和t时刻的fov，对t+1.0/fps的fov进行调整" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-117">
-          <mxGeometry x="190" width="190" height="46" as="geometry">
-            <mxRectangle width="190" height="46" as="alternateBounds" />
+          <mxGeometry x="192" width="192" height="100" as="geometry">
+            <mxRectangle width="192" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qn_3-dmqvA78tIA6TZ19-115" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-106">
-          <mxGeometry y="46" width="380" height="46" as="geometry" />
+          <mxGeometry y="100" width="384" height="102" as="geometry" />
         </mxCell>
         <mxCell id="Qn_3-dmqvA78tIA6TZ19-116" value="优势" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-115">
-          <mxGeometry width="190" height="46" as="geometry">
-            <mxRectangle width="190" height="46" as="alternateBounds" />
+          <mxGeometry width="192" height="102" as="geometry">
+            <mxRectangle width="192" height="102" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qn_3-dmqvA78tIA6TZ19-120" value="对fovlimit的高频变化不做响应，只对未来2.5s内的综合统计结果做响应，避免fov高频变化。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-115">
-          <mxGeometry x="190" width="190" height="46" as="geometry">
-            <mxRectangle width="190" height="46" as="alternateBounds" />
+          <mxGeometry x="192" width="192" height="102" as="geometry">
+            <mxRectangle width="192" height="102" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qn_3-dmqvA78tIA6TZ19-107" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-106">
-          <mxGeometry y="92" width="380" height="46" as="geometry" />
+          <mxGeometry y="202" width="384" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Qn_3-dmqvA78tIA6TZ19-108" value="不足" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-107">
-          <mxGeometry width="190" height="46" as="geometry">
-            <mxRectangle width="190" height="46" as="alternateBounds" />
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-108" value="不足1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-107">
+          <mxGeometry width="192" height="100" as="geometry">
+            <mxRectangle width="192" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qn_3-dmqvA78tIA6TZ19-121" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-107">
-          <mxGeometry x="190" width="190" height="46" as="geometry">
-            <mxRectangle width="190" height="46" as="alternateBounds" />
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-121" value="由于需要对fovlimit保持敏感，因此该滑窗不能过大。但是如果将fov帧间最大变化速度限制很小，很小帧间变化速度+很小的统计滑窗，导致fov减小可能来不及减小到fovlimit以下" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-107">
+          <mxGeometry x="192" width="192" height="100" as="geometry">
+            <mxRectangle width="192" height="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-131" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-106">
+          <mxGeometry y="302" width="384" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-132" value="&lt;div&gt;不足2&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-131">
+          <mxGeometry width="192" height="100" as="geometry">
+            <mxRectangle width="192" height="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qn_3-dmqvA78tIA6TZ19-133" value="存在短时间内fov增大后又减小的情况" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Qn_3-dmqvA78tIA6TZ19-131">
+          <mxGeometry x="192" width="192" height="100" as="geometry">
+            <mxRectangle width="192" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
